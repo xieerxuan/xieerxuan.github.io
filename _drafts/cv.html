@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Resume</title>
+    <style>
+      :root {
+        --primary-color: #2c3e50;
+        --secondary-color: #3498db;
+        --text-color: #333;
+        --light-gray: #f9f9f9;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+
+      body {
+        background-color: white;
+        color: var(--text-color);
+        line-height: 1.6;
+        padding: 40px 20px;
+        max-width: 900px;
+        margin: 0 auto;
+        font-variant-numeric: lining-nums;
+        font-feature-settings: 'lnum';
+      }
+
+      .resume-container {
+        background: white;
+      }
+
+      header {
+        padding: 0 0 30px;
+        text-align: center;
+        border-bottom: 1px solid #eee;
+        margin-bottom: 30px;
+      }
+
+      h1 {
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+        font-weight: 600;
+        color: var(--primary-color);
+        letter-spacing: -0.5px;
+      }
+
+      .contact-info {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 40px;
+        margin-top: 15px;
+        font-size: 1rem;
+      }
+
+      .contact-item {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .contact-item a {
+        text-decoration: none; /* 移除链接下划线 */
+        color: var(--text-color);
+        transition: color 0.3s ease; /* 添加颜色过渡效果 */
+      }
+
+      .contact-item a:hover {
+        color: var(--secondary-color); /* 悬停时变色 */
+      }
+
+      .section {
+        padding: 0 0 10px;
+        margin-bottom: 10px;
+      }
+
+      h2 {
+        color: var(--primary-color);
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid #e0e0e0;
+        font-weight: 600;
+      }
+
+      .item {
+        margin-bottom: 25px;
+      }
+
+      .item-header {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 8px;
+      }
+
+      .item-title {
+        font-size: 1.15rem;
+        font-weight: 600;
+        color: var(--primary-color);
+      }
+
+      .item-subtitle {
+        font-size: 1.05rem;
+        color: #555;
+        font-style: italic;
+      }
+
+      .item-date {
+        color: #777;
+        font-weight: 500;
+        white-space: nowrap;
+      }
+
+      .description {
+        margin-top: 8px;
+      }
+
+      .skills {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 15px;
+      }
+
+      .skill-tag {
+        padding: 5px 12px;
+        font-size: 0.9rem;
+        border: 1px solid #e0e0e0;
+        border-radius: 3px;
+      }
+
+      ul {
+        padding-left: 20px;
+      }
+
+      li {
+        margin-bottom: 8px;
+      }
+
+      @media (max-width: 768px) {
+        body {
+          padding: 20px 10px;
+        }
+
+        header {
+          padding-bottom: 20px;
+          margin-bottom: 20px;
+        }
+
+        .contact-info {
+          flex-direction: column;
+          align-items: center;
+          gap: 8px;
+        }
+
+        .item-header {
+          flex-direction: column;
+          gap: 5px;
+        }
+
+        .item-date {
+          align-self: flex-start;
+        }
+      }
+    </style>
+    <script src="https://kit.fontawesome.com/be76a3da23.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="resume-container">
+      <header>
+        <h1>Xie Erxuan</h1>
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fa-solid fa-envelope"></i>
+            <a href="mailto:xieerxuan@sjtu.edu.cn">xieerxuan@sjtu.edu.cn</a>
+          </div>
+          <div class="contact-item">
+            <i class="fa-solid fa-phone" style="font-size:14px"></i>
+            <a href="tel:+86 15876873737">(+86) 158 7687 3737</a>
+          </div>
+          <div class="contact-item">
+            <i class="fa-brands fa-github"></i>
+            <a href="https://xieerxuan.github.io" target="_blank">xieerxuan.github.io</a>
+          </div>
+          <div class="contact-item">
+            <i class="fa-solid fa-location-dot"></i>
+            <a href="https://maps.google.com/?q=Shanghai,China" target="_blank">Shanghai, China</a>
+          </div>
+        </div>
+      </header>
+
+      <section class="section">
+        <h2>Education</h2>
+
+        <div class="item">
+          <div class="item-header">
+            <div>
+              <div class="item-title">Shanghai Jiao Tong University</div>
+              <div class="item-subtitle"><i style="font-style: normal;">PhD of</i> of Mechanical Engineering</div>
+            </div>
+            <div class="item-date">2025.9 - Present</div>
+          </div>
+          <div class="description">
+            <p>Research Scope: Dexterous Manipulation, Reinfocement Learning</p>
+            <p>Thesis: "XXXXXXXXXXXXXXXXXXXXXXXXX" (Expected 2025)</p>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="item-header">
+            <div>
+              <div class="item-title">Huazhong University of Science and Technology</div>
+              <div class="item-subtitle">
+                <i style="font-style: normal;">Bachelor of</i> Engineering in Mechanical Design, Manufacturing and
+                Automation
+              </div>
+            </div>
+            <div class="item-date">2021.9 - 2025.6</div>
+          </div>
+          <div class="description">
+            <p>GPA: 94/100 (rank 6/244) | Honors: National Scholarship, Merit Student, Excellent Student Cadre, etc.</p>
+            <p>
+              Senior Project: Absolute Inductive Encoder Design and Its Application in Robotic Joint Torque Estimation
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Research Experience</h2>
+
+        <div class="item">
+          <div class="item-header">
+            <div>
+              <div class="item-title">Artificial Intelligence Research Lab</div>
+              <div class="item-subtitle">Research Assistant</div>
+            </div>
+            <div class="item-date">2023 - Present</div>
+          </div>
+          <div class="description">
+            <ul>
+              <li>Developed novel optimization algorithm for deep neural networks, reducing training time by 18%</li>
+              <li>Co-authored paper accepted at International Conference on Machine Learning (ICML 2024)</li>
+              <li>Designed and implemented data preprocessing pipeline for multi-modal datasets</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="item-header">
+            <div>
+              <div class="item-title">Human-Computer Interaction Center</div>
+              <div class="item-subtitle">Undergraduate Researcher</div>
+            </div>
+            <div class="item-date">2022 - 2023</div>
+          </div>
+          <div class="description">
+            <ul>
+              <li>Conducted user studies on AR interface usability with 50+ participants</li>
+              <li>Developed prototype application using Unity and ARCore</li>
+              <li>Presented findings at university research symposium</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Technical Skills</h2>
+        <div class="skills">
+          <div class="skill-tag">Python</div>
+          <div class="skill-tag">TensorFlow/PyTorch</div>
+          <div class="skill-tag">Machine Learning</div>
+          <div class="skill-tag">Data Analysis</div>
+          <div class="skill-tag">C++</div>
+          <div class="skill-tag">Java</div>
+          <div class="skill-tag">SQL</div>
+          <div class="skill-tag">Cloud Computing (AWS)</div>
+          <div class="skill-tag">Git</div>
+          <div class="skill-tag">Linux</div>
+          <div class="skill-tag">Docker</div>
+          <div class="skill-tag">Web Development</div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Projects</h2>
+
+        <div class="item">
+          <div class="item-header">
+            <div>
+              <div class="item-title">Medical Image Segmentation System</div>
+            </div>
+            <div class="item-date">2024</div>
+          </div>
+          <div class="description">
+            <ul>
+              <li>Developed U-Net based model for tumor segmentation in MRI scans</li>
+              <li>Achieved 92% Dice coefficient on validation set</li>
+              <li>Created web interface for clinicians to upload and analyze scans</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="item-header">
+            <div>
+              <div class="item-title">Distributed Computing Framework</div>
+            </div>
+            <div class="item-date">2023</div>
+          </div>
+          <div class="description">
+            <ul>
+              <li>Designed distributed task scheduler using Python and Redis</li>
+              <li>Implemented fault tolerance mechanisms for long-running computations</li>
+              <li>Benchmarked performance against existing solutions</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Publications</h2>
+
+        <div class="item">
+          <div class="item-header">
+            <div>
+              <div class="item-title">"Efficient Optimization Techniques for Deep Learning Models"</div>
+              <div class="item-subtitle">International Conference on Machine Learning (ICML)</div>
+            </div>
+            <div class="item-date">2024</div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="item-header">
+            <div>
+              <div class="item-title">"AR Interface Design for Educational Applications"</div>
+              <div class="item-subtitle">Journal of Human-Computer Interaction</div>
+            </div>
+            <div class="item-date">2023</div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
