@@ -1,17 +1,17 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>http://localhost:4000/</id>
+  <id>https://xieerxuan.github.io/</id>
   <title>XEX</title>
   <subtitle>A blog space to share my thoughts, experiences, and insights on various topics including technology, programming, and personal development.</subtitle>
-  <updated>2025-11-16T18:09:02+08:00</updated>
+  <updated>2025-11-16T18:30:10+08:00</updated>
   <author>
     <name>Xie Erxuan</name>
-    <uri>http://localhost:4000/</uri>
+    <uri>https://xieerxuan.github.io/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="https://xieerxuan.github.io/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
-    href="http://localhost:4000/"/>
+    href="https://xieerxuan.github.io/"/>
   <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
   <rights> © 2025 Xie Erxuan </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
@@ -21,13 +21,13 @@
   
   <entry>
     <title>DSP 数学框架</title>
-    <link href="http://localhost:4000/posts/DSP%E7%AC%94%E8%AE%B0/" rel="alternate" type="text/html" title="DSP 数学框架" />
+    <link href="https://xieerxuan.github.io/posts/DSP%E7%AC%94%E8%AE%B0/" rel="alternate" type="text/html" title="DSP 数学框架" />
     <published>2025-11-15T00:00:00+08:00</published>
   
-    <updated>2025-11-15T00:00:00+08:00</updated>
+    <updated>2025-11-16T18:27:44+08:00</updated>
   
-    <id>http://localhost:4000/posts/DSP%E7%AC%94%E8%AE%B0/</id>
-    <content type="text/html" src="http://localhost:4000/posts/DSP%E7%AC%94%E8%AE%B0/" />
+    <id>https://xieerxuan.github.io/posts/DSP%E7%AC%94%E8%AE%B0/</id>
+    <content type="text/html" src="https://xieerxuan.github.io/posts/DSP%E7%AC%94%E8%AE%B0/" />
     <author>
       <name>xex</name>
     </author>
@@ -47,13 +47,13 @@
   
   <entry>
     <title>CS285 S1: Policy Gradient</title>
-    <link href="http://localhost:4000/posts/CS285%E7%AC%94%E8%AE%B0-Policy-Gradient/" rel="alternate" type="text/html" title="CS285 S1: Policy Gradient" />
+    <link href="https://xieerxuan.github.io/posts/CS285%E7%AC%94%E8%AE%B0-Policy-Gradient/" rel="alternate" type="text/html" title="CS285 S1: Policy Gradient" />
     <published>2025-10-03T00:00:00+08:00</published>
   
-    <updated>2025-11-16T15:55:13+08:00</updated>
+    <updated>2025-11-16T18:27:44+08:00</updated>
   
-    <id>http://localhost:4000/posts/CS285%E7%AC%94%E8%AE%B0-Policy-Gradient/</id>
-    <content type="text/html" src="http://localhost:4000/posts/CS285%E7%AC%94%E8%AE%B0-Policy-Gradient/" />
+    <id>https://xieerxuan.github.io/posts/CS285%E7%AC%94%E8%AE%B0-Policy-Gradient/</id>
+    <content type="text/html" src="https://xieerxuan.github.io/posts/CS285%E7%AC%94%E8%AE%B0-Policy-Gradient/" />
     <author>
       <name>xex</name>
     </author>
@@ -73,13 +73,13 @@
   
   <entry>
     <title>SO(3)上的黎曼梯度</title>
-    <link href="http://localhost:4000/posts/SO(3)%E4%B8%8A%E7%9A%84%E9%BB%8E%E6%9B%BC%E6%A2%AF%E5%BA%A6/" rel="alternate" type="text/html" title="SO(3)上的黎曼梯度" />
+    <link href="https://xieerxuan.github.io/posts/SO(3)%E4%B8%8A%E7%9A%84%E9%BB%8E%E6%9B%BC%E6%A2%AF%E5%BA%A6/" rel="alternate" type="text/html" title="SO(3)上的黎曼梯度" />
     <published>2025-08-08T19:22:00+08:00</published>
   
     <updated>2025-08-08T19:22:00+08:00</updated>
   
-    <id>http://localhost:4000/posts/SO(3)%E4%B8%8A%E7%9A%84%E9%BB%8E%E6%9B%BC%E6%A2%AF%E5%BA%A6/</id>
-    <content type="text/html" src="http://localhost:4000/posts/SO(3)%E4%B8%8A%E7%9A%84%E9%BB%8E%E6%9B%BC%E6%A2%AF%E5%BA%A6/" />
+    <id>https://xieerxuan.github.io/posts/SO(3)%E4%B8%8A%E7%9A%84%E9%BB%8E%E6%9B%BC%E6%A2%AF%E5%BA%A6/</id>
+    <content type="text/html" src="https://xieerxuan.github.io/posts/SO(3)%E4%B8%8A%E7%9A%84%E9%BB%8E%E6%9B%BC%E6%A2%AF%E5%BA%A6/" />
     <author>
       <name>xex</name>
     </author>
