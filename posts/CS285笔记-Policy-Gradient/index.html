@@ -235,11 +235,6 @@
 <script defer src="/assets/js/dist/post.min.js"></script>
 
 
-  <!-- MathJax -->
-  <script src="/assets/js/data/mathjax.js"></script>
-  <script async src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-chtml.js"></script>
-
 
 <!-- Pageviews -->
 
@@ -924,7 +919,8 @@
       <div class="post-meta mb-3">
         <i class="far fa-folder-open fa-fw me-1"></i>
         
-          <a href="/categories/notes/">Notes</a>
+          <a href="/categories/notes/">Notes</a>,
+          <a href="/categories/reinforcement-learning/">Reinforcement Learning</a>
       </div>
     
 
@@ -1036,6 +1032,13 @@
   <section id="access-lastmod">
     <h2 class="panel-heading">Recently Updated</h2>
     <ul class="content list-unstyled ps-0 pb-1 ms-1 mt-2">
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
+          <a href="/posts/DSP%E7%AC%94%E8%AE%B0/">DSP 数学框架</a>
+        </li>
       
         
         
@@ -1206,6 +1209,18 @@
 
   
     
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
 
 
 
@@ -1219,6 +1234,34 @@
   <aside id="related-posts" aria-labelledby="related-label">
     <h3 class="mb-4" id="related-label">Further Reading</h3>
     <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
+      
+        <article class="col">
+          <a href="/posts/DSP%E7%AC%94%E8%AE%B0/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1763136000"
+  data-df="ll"
+  
+>
+  Nov 15, 2025
+</time>
+
+              <h4 class="pt-0 my-2">DSP 数学框架</h4>
+              <div class="text-muted">
+                <p>## 1. 连续周期信号的傅里叶级数 (Fourier Series, FS)  **公式：**  $$ x(t) = \sum_{k=-\infty}^{\infty} X[k] e^{j k \omega_{0} t} $$  $$ X[k] = \frac{1}{T} \int_{T} x(t) e^{-j k \omega_{0} t} d t $$  其中 $\omega_{0} ...</p>
+              </div>
+            </div>
+          </a>
+        </article>
       
         <article class="col">
           <a href="/posts/SO(3)%E4%B8%8A%E7%9A%84%E9%BB%8E%E6%9B%BC%E6%A2%AF%E5%BA%A6/" class="post-preview card h-100">
@@ -1272,9 +1315,13 @@
   
 
   
-    <div class="btn btn-outline-primary disabled" aria-label="Newer">
-      <p>-</p>
-    </div>
+    <a
+      href="/posts/DSP%E7%AC%94%E8%AE%B0/"
+      class="btn btn-outline-primary"
+      aria-label="Newer"
+    >
+      <p>DSP 数学框架</p>
+    </a>
   
 </nav>
 
