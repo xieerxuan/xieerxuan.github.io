@@ -3,7 +3,7 @@ layout: post
 title: "CS285 S1: Policy Gradient"
 author: xex
 date: 2025-10-03
-categories: Notes
+categories: [Notes, Reinforcement Learning]
 tags: reinforcement-learning
 usemathjax: true
 ---

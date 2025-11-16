@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Resume</title>
+    <style>
+      :root {
+        --primary-color: #2c3e50;
+        --secondary-color: #3498db;
+        --text-color: #333;
+        --light-gray: #f9f9f9;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Helvetica, Arial,
+          sans-serif, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+      }
+
+      body {
+        background-color: white;
+        color: var(--text-color);
+        line-height: 1.6;
+        padding: 40px 20px;
+        max-width: 900px;
+        margin: 0 auto;
+        font-variant-numeric: lining-nums;
+        font-feature-settings: 'lnum';
+      }
+
+      .resume-container {
+        background: white;
+      }
+
+      header {
+        padding: 0 0 30px;
+        text-align: center;
+        margin-bottom: 10px;
+      }
+
+      h1 {
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+        font-weight: 600;
+        color: var(--primary-color);
+        letter-spacing: -0.5px;
+      }
+
+      .contact-info {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 40px;
+        margin-top: 15px;
+        font-size: 1rem;
+      }
+
+      .contact-item {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .contact-item a {
+        text-decoration: none; /* 移除链接下划线 */
+        color: var(--text-color);
+        transition: color 0.3s ease; /* 添加颜色过渡效果 */
+      }
+
+      .contact-item a:hover {
+        color: var(--secondary-color); /* 悬停时变色 */
+      }
+
+      .section {
+        padding: 0 0 10px;
+        margin-bottom: 10px;
+      }
+
+      h2 {
+        color: var(--primary-color);
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid #e0e0e0;
+        font-weight: 600;
+      }
+
+      .item {
+        font-size: 1.05rem;
+        margin-bottom: 25px;
+      }
+
+      .item-header {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 8px;
+      }
+
+      .item-title {
+        font-size: 1.15rem;
+        font-weight: 600;
+        color: var(--primary-color);
+      }
+
+      .item-subtitle {
+        font-size: 1.05rem;
+        color: #555;
+        font-style: italic;
+      }
+
+      .item-date {
+        color: #777;
+        font-weight: 500;
+        white-space: nowrap;
+      }
+
+      .description {
+        font-size: 1.05rem;
+        margin-top: 8px;
+      }
+
+      .skills {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 15px;
+      }
+
+      .skill-tag {
+        padding: 5px 12px;
+        font-size: 0.9rem;
+        border: 1px solid #e0e0e0;
+        border-radius: 3px;
+      }
+
+      ul {
+        padding-left: 20px;
+      }
+
+      li {
+        margin-bottom: 8px;
+      }
+
+      @media (max-width: 768px) {
+        body {
+          padding: 20px 10px;
+        }
+
+        header {
+          padding-bottom: 20px;
+          margin-bottom: 20px;
+        }
+
+        .contact-info {
+          flex-direction: column;
+          align-items: center;
+          gap: 8px;
+        }
+
+        .item-header {
+          flex-direction: column;
+          gap: 5px;
+        }
+
+        .item-date {
+          align-self: flex-start;
+        }
+      }
+    </style>
+    <script src="https://kit.fontawesome.com/be76a3da23.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="resume-container">
+      <header>
+        <h1>谢尔铉</h1>
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fa-solid fa-envelope"></i>
+            <a href="mailto:xieerxuan@sjtu.edu.cn">xieerxuan@sjtu.edu.cn</a>
+          </div>
+          <div class="contact-item">
+            <i class="fa-solid fa-phone" style="font-size:14px"></i>
+            <a href="tel:+86 15876873737">(+86) 158 7687 3737</a>
+          </div>
+          <div class="contact-item">
+            <i class="fa-solid fa-location-dot"></i>
+            <a href="https://maps.google.com/?q=Shanghai,China" target="_blank">中国 上海</a>
+          </div>
+        </div>
+      </header>
+
+      <section class="section">
+        <h2>教育经历</h2>
+
+        <div class="item">
+          <div class="item-header">
+            <div>
+              <div class="item-title">
+                上海交通大学 &ensp; <i style="font-style: italic;">机械工程&ensp;</i>直博在读
+              </div>
+            </div>
+            <div class="item-date">2025.9 至今</div>
+          </div>
+          <div class="description">
+            <p></p>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="item-header">
+            <div>
+              <div class="item-title">
+                华中科技大学 &ensp;
+                <i style="font-style: italic;">机械设计制造及其自动化&ensp;</i>学士
+              </div>
+            </div>
+            <div class="item-date">2021.9 - 2025.6</div>
+          </div>
+          <div class="description">
+            <p>曾获荣誉：国家奖学金，三好学生，优秀学生干部等</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>学生工作经历</h2>
+
+        <div class="item">
+          <div class="item-header">
+            <div>
+              <div class="item-title">华中科技大学校学生会 &ensp; 部门工作人员</div>
+              <div class="item-subtitle"></div>
+            </div>
+            <div class="item-date">2021 -2024</div>
+          </div>
+          <div class="description">
+            <ul>
+              <li>发起“SU布谷鸟”创新栏目，以发布推文的形式帮助同学们掌握当月重要学业发展时间节点资讯；</li>
+              <li>参与组织“青春舞会”、“迎新”、“毕业集市”等校级大型活动，参与组织部门主办的其他活动；</li>
+              <li>与学校其他组织对接，协助举办“六级模考”、“微积分模考”等活动，参与外校来访交流活动；</li>
+              <li>在全体大会暨新生干训中做分享报告，组织部门团建，主持部门招新面试等；</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="item-header">
+            <div>
+              <div class="item-title">院史馆解说</div>
+              <div class="item-subtitle"></div>
+            </div>
+            <div class="item-date">2023 - 2024</div>
+          </div>
+          <div class="description">
+            <ul>
+              <li>向来院史馆参观的来宾介绍学院，接待过包括研学中学生、校友、新生、国外高校领导等；</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="item-header">
+            <div>
+              <div class="item-title">特优生联合会</div>
+              <div class="item-subtitle"></div>
+            </div>
+            <div class="item-date">2022 - 2023</div>
+          </div>
+          <div class="description">
+            <ul>
+              <li>组织、主持多个本科生科研分享会，提供经验分享的平台；</li>
+            </ul>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-header">
+            <div>
+              <div class="item-title">班级资助委员、学习委员</div>
+              <div class="item-subtitle"></div>
+            </div>
+            <div class="item-date">2021 - 2025</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>自我评价与期待</h2>
+
+        <div class="item">
+          <div class="item-header">
+            <div>
+              <div class="item-title">自我评价</div>
+              <div class="item-subtitle"></div>
+            </div>
+          </div>
+          <div class="description">
+            <ul>
+              <li>
+                <i style="font-weight: bold; font-style: normal;">做事情认真负责</i> &ensp;
+                我对于自己的分内工作向量认真负责，不管是在团队中、在比赛中、在各项学生工作中，我都尽心尽力、尽职尽责，合理分配自己的精力与时间，对于自己承担的任务都会按时高质地完成。
+              </li>
+              <li>
+                <i style="font-weight: bold; font-style: normal;">在团队积极沟通</i> &ensp;
+                在需要合作的各种项目中我积极与合作各方沟通交流，积极提高团队效率。在撰写综述论文、组织比赛备赛、发动新项目等经历中我也获得了许多团队内交流的经验，自己的沟通表达能力也有了很大的提升。
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="item-header">
+            <div>
+              <div class="item-title">研会期待</div>
+              <div class="item-subtitle"></div>
+            </div>
+          </div>
+          <div class="description">
+            研究生会作为连接学校与同学们的重要桥梁，加入研会不仅意味着一份荣誉，更意味着一份责任——承担起纽带的作用，积极传递信息、反映同学心声，助力校园沟通。希望在这个过程中，能够不断锻炼自己的能力，收获成长。
+            <p>
+            同时也期待能在研会这个温暖的集体中，结识一群志同道合的朋友，在服务同学、组织各类活动的过程中协作互助，共同进步，实现自我价值，留下一段充实而有意义的研究生时光。
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

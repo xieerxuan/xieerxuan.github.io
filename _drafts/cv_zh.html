@@ -1,0 +1,465 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>专业简历</title>
+    <style>
+      :root {
+        --primary-color: #2c3e50;
+        --secondary-color: #3498db;
+        --text-color: #333;
+        --light-gray: #f9f9f9;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Times New Roman', 'STZhongsong', '华文中宋', 'SimSun', '宋体', serif;
+      }
+
+      body {
+        background-color: white;
+        color: var(--text-color);
+        line-height: 1.5;
+        padding: 20px 20px;
+        max-width: 900px;
+        margin: 0 auto;
+        font-variant-numeric: lining-nums;
+        font-feature-settings: 'lnum';
+      }
+
+      .resume-container {
+        background: white;
+      }
+
+      header {
+        padding: 0 0 20px;
+        text-align: center;
+        border-bottom: none;
+        margin-bottom: 0px;
+      }
+
+      h1 {
+        font-size: 2.0rem;
+        margin-bottom: 8px;
+        font-weight: 600;
+        color: var(--primary-color);
+        letter-spacing: 1px;
+      }
+
+      .contact-info {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 40px;
+        margin-top: 15px;
+        font-size: 1rem;
+      }
+
+      .contact-item {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .contact-item a {
+        text-decoration: none;
+        color: var(--text-color);
+        transition: color 0.3s ease;
+      }
+
+      .contact-item a:hover {
+        color: var(--secondary-color);
+      }
+
+      .section {
+        padding: 0 0 10px;
+        margin-bottom: 5px;
+      }
+
+      h2 {
+        color: var(--primary-color);
+        font-size: 1.3rem;
+        margin-bottom: 8px;
+        padding-bottom: 6px;
+        border-bottom: 2px solid #e0e0e0;
+        font-weight: 600;
+      }
+
+      .item {
+        margin-bottom: 18px;
+      }
+
+      .item-header {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 6px;
+      }
+
+      .item-title {
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: var(--primary-color);
+      }
+
+      .item-subtitle {
+        font-size: 1.0rem;
+        color: #555;
+        font-style: italic;
+        margin-left: 8px;
+      }
+
+      .item-date {
+        color: #777;
+        font-weight: 500;
+        white-space: nowrap;
+        font-size: 0.95rem;
+      }
+
+      .description {
+        margin-top: 6px;
+      }
+
+      .description a {
+        text-decoration: none;
+        color: var(--text-color);
+        transition: color 0.3s ease;
+      }
+
+      .description a:hover {
+        color: var(--secondary-color);
+      }
+
+            
+      .description p {
+        margin-bottom: 5px; /* 减少段落间距 */
+      }
+
+      .skills {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 12px;
+      }
+
+      .skill-tag {
+        padding: 4px 10px;
+        font-size: 0.9rem;
+        border: 1px solid #e0e0e0;
+        border-radius: 3px;
+        background-color: #f8f9fa;
+      }
+
+      ul {
+        padding-left: 18px;
+      }
+
+      li {
+        margin-bottom: 6px;
+        line-height: 1.8;
+      }
+
+      .title-subtitle-container {
+        display: flex;
+        align-items: baseline;
+        flex-wrap: wrap;
+        gap: 15px;
+      }
+
+      .title-separator {
+        color: #999;
+        margin: 0 5px;
+      }
+
+      @media (max-width: 768px) {
+        body {
+          padding: 20px 10px;
+          line-height: 1.6;
+        }
+
+        header {
+          padding-bottom: 20px;
+          margin-bottom: 20px;
+        }
+
+        h1 {
+          font-size: 1.8rem;
+        }
+
+        .contact-info {
+          flex-direction: column;
+          align-items: center;
+          gap: 8px;
+        }
+
+        .item-header {
+          flex-direction: column;
+          gap: 5px;
+        }
+
+        .item-date {
+          align-self: flex-start;
+        }
+
+        .title-subtitle-container {
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 4px;
+        }
+
+        .title-separator {
+          display: none;
+        }
+      }
+    </style>
+    <script src="https://kit.fontawesome.com/be76a3da23.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="resume-container">
+      <header>
+        <h1>谢 尔铉</h1>
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fa-solid fa-envelope"></i>
+            <a href="mailto:xieerxuan@sjtu.edu.cn">xieerxuan@sjtu.edu.cn</a>
+          </div>
+          <div class="contact-item">
+            <i class="fa-solid fa-phone" style="font-size:14px"></i>
+            <a href="tel:+86 15876873737">(+86) 158 7687 3737</a>
+          </div>
+          <div class="contact-item">
+            <i class="fa-brands fa-github"></i>
+            <a href="https://xieerxuan.github.io" target="_blank">xieerxuan.github.io</a>
+          </div>
+          <div class="contact-item">
+            <i class="fa-solid fa-location-dot"></i>
+            <a href="https://maps.google.com/?q=Shanghai,China" target="_blank">上海</a>
+          </div>
+        </div>
+      </header>
+
+      <section class="section">
+        <h2>教育背景</h2>
+
+        <div class="item">
+          <div class="item-header">
+            <div class="title-subtitle-container">
+              <div class="item-title">上海交通大学</div>
+              <div class="item-subtitle">机械工程 &ensp; PhD（在读）</div>
+            </div>
+            <div class="item-date">2025.9 - 至今</div>
+          </div>
+          <div class="description">
+            <p>研究方向：灵巧操作、强化学习</p>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="item-header">
+            <div class="title-subtitle-container">
+              <div class="item-title">华中科技大学</div>
+              <div class="item-subtitle">机械设计制造及其自动化 &ensp; 学士</div>
+            </div>
+            <div class="item-date">2021.9 - 2025.6</div>
+          </div>
+          <div class="description">
+            <p>GPA：94/100（排名6/244）| 荣誉：国家奖学金、三好学生、优秀学生干部等</p>
+            <p>毕业设计：<a href="https://github.com/xieerxuan/IndEnc/tree/xex-reframe" target="_blank">绝对式电感编码器设计及其在机器人关节力矩估计中的应用</a></p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>科研经历</h2>
+
+        
+        <div class="item">
+          <div class="item-header">
+            <div>
+              <div class="item-title">科研：</div>
+            </div>
+            <div class="item-date">2025 - 至今</div>
+          </div>
+          <div class="description">
+            <ul>
+              <li>
+              项目介绍	&ensp;&ensp; 
+              为保证动态系统的无源性，系统状态方程需要特别设计以满足存在一个正定的李雅普诺夫函数。本课题提出的方案是将状态空间微分同胚映射到一个满足二次型李雅普诺夫函数的隐状态空间中，其中微分同胚通过流匹配实现。
+              </li>
+              <li>
+              负责工作	&ensp;&ensp; 
+              使用 LASA 数据集验证所提出方法的有效性，完成了代码框架，在 LASA 数据集中取得可观的效果。
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="item-header">
+            <div>
+              <div class="item-title">助教：嵌入式系统设计（SJTU ME4406）</div>
+            </div>
+            <div class="item-date">2025 - 至今</div>
+          </div>
+          <div class="description">
+            <ul>
+              <li>
+              项目介绍	&ensp;&ensp; 
+              为适应嵌入式系统智能化、网络化的趋势，课程在本学期进行大幅度课改，首次采用ESP32芯片与华为昇腾芯片开展实验教学，着重于帮助学生理解并学会使用 WiFi 等物联网相关技术以及多线程管理。
+              </li>
+              <li>
+              负责工作	&ensp;&ensp; 
+              独立设计并实现了 ESP32 & FreeRTOS 综合实验，并撰写了实验讲义与实验指导书，实验内容与项目源码可见<a href="https://github.com/xieerxuan/SJTU_tutor_ESP32"> SJTU_tutor_ESP32</a>。
+              </li>
+            </ul>
+          </div>
+        </div>
+
+
+        <div class="item">
+          <div class="item-header">
+            <div>
+              <div class="item-title">论文：Al-enabled Flexible Electronic Systemsvia Near/In-sensor Computing </div>
+            </div>
+            <div class="item-date">共同一作, 已投 | 2023 - 至今</div>
+          </div>
+          <div class="description">
+            <ul>
+              <li>
+              项目介绍	&ensp;&ensp; 
+              综述了人工智能驱动的柔性传感系统在不同领域中的广泛应用，探讨了传感器端边缘计算的两种形式（in-sensor和near-sensor）的技术路线和研究现状，为下一代智能传感系统的发展提供参考。
+              </li>
+              <li>
+              负责工作	&ensp;&ensp; 
+              承担文章撰写的主要工作，包括构思文章框架、搜集与整理文献、绘制图表、完成论文初稿等，现已经过两轮 rebuttal，审稿反馈良好。
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="item-header">
+            <div>
+              <div class="item-title">论文：A Flexible, Large-Scale Sensing Array with Low-Power In-Sensor Intelligence</div>
+            </div>
+            <div class="item-date">二作, 已发表 | 2022 - 2024</div>
+          </div>
+          <div class="description">
+            <ul>
+              <li>
+              项目介绍	&ensp;&ensp;               
+              长时间的坐姿不当可能导致各种健康问题，为实现实时、低功耗、安全的坐姿识别，因此该研究开发了一套基于超维计算（HDC）的传感器内（in-sensor）计算智能传感系统，可贴于座位表面实现对坐姿的智能分类识别。
+              </li>
+              <li>
+              负责工作	&ensp;&ensp;               
+              将超维计算算法在嵌入式系统中实现的部分代码编写与论文修改。
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="item-header">
+            <div>
+              <div class="item-title">比赛：国际自主智能机器人大赛（Running Robot）</div>
+            </div>
+            <div class="item-date">三等奖 | 2023</div>
+          </div>
+          <div class="description">
+            <ul>
+              <li>
+              项目介绍	&ensp;&ensp; 
+              比赛以场地任务赛的形式进行，机器人在规定赛道上跨越各种关卡以到达终点。
+              </li>
+              <li>
+              负责工作	&ensp;&ensp; 
+              ①担任队伍负责人，组织队员备赛，为大家分配任务；②设计机器人动作，使其健壮行走及执行各种动作任务；③使用OpenCV库识别机器人摄像头获取到的图像，据此编写机器人动作行为决策算法以通过赛道各个关卡。
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>知识栈 & 技术栈</h2>
+        <div class="skills">
+          <div class="skill-tag">强化学习</div>
+          <div class="skill-tag">机器人学</div>
+          <div class="skill-tag">旋量理论</div>
+          <div class="skill-tag">经典控制理论</div>
+          <div class="skill-tag">现代控制理论</div>
+          <div class="skill-tag">PyTorch</div>
+          <div class="skill-tag">Git</div>
+          <div class="skill-tag">Linux</div>          
+          <div class="skill-tag">IssacLab</div>        
+          <div class="skill-tag">MATLAB</div>
+        </div>
+      </section>
+
+      <!--
+      <section class="section">
+        <h2>项目经历</h2>
+
+        <div class="item">
+          <div class="item-header">
+            <div>
+              <div class="item-title">医学图像分割系统</div>
+            </div>
+            <div class="item-date">2024</div>
+          </div>
+          <div class="description">
+            <ul>
+              <li>开发基于U-Net的MRI扫描肿瘤分割模型</li>
+              <li>在验证集上达到92%的Dice系数</li>
+              <li>为临床医生创建上传和分析扫描图像的Web界面</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="item-header">
+            <div>
+              <div class="item-title">分布式计算框架</div>
+            </div>
+            <div class="item-date">2023</div>
+          </div>
+          <div class="description">
+            <ul>
+              <li>使用Python和Redis设计分布式任务调度器</li>
+              <li>实现长时计算任务的容错机制</li>
+              <li>与现有解决方案进行性能基准测试</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>学术成果</h2>
+
+        <div class="item">
+          <div class="item-header">
+            <div>
+              <div class="item-title">"深度学习模型高效优化技术"</div>
+              <div class="item-subtitle">国际机器学习大会（ICML）</div>
+            </div>
+            <div class="item-date">2024</div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="item-header">
+            <div>
+              <div class="item-title">"教育应用中的AR界面设计"</div>
+              <div class="item-subtitle">人机交互期刊</div>
+            </div>
+            <div class="item-date">2023</div>
+          </div>
+        </div>
+      </section>
+      <--
+
+    </div>
+  </body>
+</html>

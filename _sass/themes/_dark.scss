@@ -45,7 +45,7 @@
   --avatar-border-color: rgb(206 206 206 / 90%);
 
   /* Topbar */
-  --topbar-bg: rgb(30 34 44 / 64%); // 基于主色
+  --topbar-bg: (30, 34, 44, 0.9);// 基于主色
   --topbar-text-color: var(--text-color);
   --search-border-color: #3a404d; // 主色变亮
   --search-icon-color: #6b8de6; // 链接色
