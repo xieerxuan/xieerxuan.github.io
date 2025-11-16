@@ -3,9 +3,10 @@ layout: post
 title: "CS285 S1: Policy Gradient"
 author: xex
 date: 2025-10-03
-categories: [Notes, Reinforcement Learning]
+categories: [Notes, Reinforcement Learning (RL)]
 tags: reinforcement-learning
-usemathjax: true
+render_with_liquid: false
+math: true
 ---
 
 
