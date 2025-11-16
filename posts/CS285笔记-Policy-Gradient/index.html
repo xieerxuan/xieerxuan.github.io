@@ -35,8 +35,8 @@
 <meta property="og:locale" content="en" />
 <meta name="description" content="1. Recap the Goal of RL" />
 <meta property="og:description" content="1. Recap the Goal of RL" />
-<link rel="canonical" href="https://xieerxuan.github.io/posts/CS285%E7%AC%94%E8%AE%B0-Policy-Gradient/" />
-<meta property="og:url" content="https://xieerxuan.github.io/posts/CS285%E7%AC%94%E8%AE%B0-Policy-Gradient/" />
+<link rel="canonical" href="http://localhost:4000/posts/CS285%E7%AC%94%E8%AE%B0-Policy-Gradient/" />
+<meta property="og:url" content="http://localhost:4000/posts/CS285%E7%AC%94%E8%AE%B0-Policy-Gradient/" />
 <meta property="og:site_name" content="XEX" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2025-10-03T00:00:00+08:00" />
@@ -45,7 +45,7 @@
 <meta name="twitter:site" content="@" />
 <meta name="twitter:creator" content="@Erxuan Xie" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Erxuan Xie","url":"https://github.com/xieerxuan"},"dateModified":"2025-10-03T00:00:00+08:00","datePublished":"2025-10-03T00:00:00+08:00","description":"1. Recap the Goal of RL","headline":"CS285 S1: Policy Gradient","mainEntityOfPage":{"@type":"WebPage","@id":"https://xieerxuan.github.io/posts/CS285%E7%AC%94%E8%AE%B0-Policy-Gradient/"},"url":"https://xieerxuan.github.io/posts/CS285%E7%AC%94%E8%AE%B0-Policy-Gradient/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Erxuan Xie","url":"https://github.com/xieerxuan"},"dateModified":"2025-11-16T15:55:13+08:00","datePublished":"2025-10-03T00:00:00+08:00","description":"1. Recap the Goal of RL","headline":"CS285 S1: Policy Gradient","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/CS285%E7%AC%94%E8%AE%B0-Policy-Gradient/"},"url":"http://localhost:4000/posts/CS285%E7%AC%94%E8%AE%B0-Policy-Gradient/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -234,6 +234,11 @@
 
 <script defer src="/assets/js/dist/post.min.js"></script>
 
+
+  <!-- MathJax -->
+  <script src="/assets/js/data/mathjax.js"></script>
+  <script async src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-chtml.js"></script>
 
 
 <!-- Pageviews -->
@@ -704,6 +709,29 @@
 
       <!-- lastmod date -->
       
+        <span>
+          Updated
+          <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1763279713"
+  data-df="ll"
+  
+    data-bs-toggle="tooltip" data-bs-placement="bottom"
+  
+>
+  Nov 16, 2025
+</time>
+
+        </span>
+      
 
       
 
@@ -920,7 +948,7 @@
         <i class="far fa-folder-open fa-fw me-1"></i>
         
           <a href="/categories/notes/">Notes</a>,
-          <a href="/categories/reinforcement-learning/">Reinforcement Learning</a>
+          <a href="/categories/reinforcement-learning-rl/">Reinforcement Learning (RL)</a>
       </div>
     
 
@@ -968,21 +996,21 @@
 
       
 
-      <a href="https://twitter.com/intent/tweet?text=CS285%20S1:%20Policy%20Gradient%20-%20XEX&url=https%3A%2F%2Fxieerxuan.github.io%2Fposts%2FCS285%25E7%25AC%2594%25E8%25AE%25B0-Policy-Gradient%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
+      <a href="https://twitter.com/intent/tweet?text=CS285%20S1:%20Policy%20Gradient%20-%20XEX&url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FCS285%25E7%25AC%2594%25E8%25AE%25B0-Policy-Gradient%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
         <i class="fa-fw fa-brands fa-square-x-twitter"></i>
       </a>
     
 
       
 
-      <a href="https://www.facebook.com/sharer/sharer.php?title=CS285%20S1:%20Policy%20Gradient%20-%20XEX&u=https%3A%2F%2Fxieerxuan.github.io%2Fposts%2FCS285%25E7%25AC%2594%25E8%25AE%25B0-Policy-Gradient%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
+      <a href="https://www.facebook.com/sharer/sharer.php?title=CS285%20S1:%20Policy%20Gradient%20-%20XEX&u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FCS285%25E7%25AC%2594%25E8%25AE%25B0-Policy-Gradient%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
         <i class="fa-fw fab fa-facebook-square"></i>
       </a>
     
 
       
 
-      <a href="https://t.me/share/url?url=https%3A%2F%2Fxieerxuan.github.io%2Fposts%2FCS285%25E7%25AC%2594%25E8%25AE%25B0-Policy-Gradient%2F&text=CS285%20S1:%20Policy%20Gradient%20-%20XEX" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
+      <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FCS285%25E7%25AC%2594%25E8%25AE%25B0-Policy-Gradient%2F&text=CS285%20S1:%20Policy%20Gradient%20-%20XEX" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
         <i class="fa-fw fab fa-telegram"></i>
       </a>
     
@@ -1037,14 +1065,14 @@
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/DSP%E7%AC%94%E8%AE%B0/">DSP 数学框架</a>
+          <a href="/posts/CS285%E7%AC%94%E8%AE%B0-Policy-Gradient/">CS285 S1: Policy Gradient</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/CS285%E7%AC%94%E8%AE%B0-Policy-Gradient/">CS285 S1: Policy Gradient</a>
+          <a href="/posts/DSP%E7%AC%94%E8%AE%B0/">DSP 数学框架</a>
         </li>
       
         
@@ -1089,8 +1117,6 @@
     
     
     
-      
-    
   
     
     
@@ -1104,8 +1130,6 @@
     
     
     
-    
-      
     
   
     
@@ -1401,8 +1425,6 @@
     
     
     
-      
-    
   
     
     
@@ -1416,8 +1438,6 @@
     
     
     
-    
-      
     
   
     
