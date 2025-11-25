@@ -4,7 +4,7 @@
   <id>https://xieerxuan.github.io/</id>
   <title>XEX</title>
   <subtitle>A blog space to share my thoughts, experiences, and insights on various topics including technology, programming, and personal development.</subtitle>
-  <updated>2025-11-16T18:30:10+08:00</updated>
+  <updated>2025-11-25T14:24:58+08:00</updated>
   <author>
     <name>Xie Erxuan</name>
     <uri>https://xieerxuan.github.io/</uri>
@@ -67,6 +67,32 @@
   
 
   <summary>1. Recap the Goal of RL  强化学习的目标是最大化期望回报：  \[J(\theta) = \mathbb{E}_{\tau \sim p_\theta(\tau)} \left[ \sum_t r(s_t, a_t) \right]\]  因此，强化学习的参数学习目标为：  \[\theta^* = \arg\max_\theta J(\theta )= \mathbb{E}_{\tau \sim p_\theta(\tau)} \left[ \sum_t r(s_t, a_t) \right]\]  其中  \[p(\tau) = p(s_1,a_1,s_2,a_2,...,s_T,a_T)= p(s_1)\prod_{t=1}^{T} p(s_{t+1} \mid s_t, a_t)\]  是某条 trajectory 出现的概率（密度）。      IN...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>变分自编码器（Variational AutoEncoder, VAE）</title>
+    <link href="https://xieerxuan.github.io/posts/%E5%8F%98%E5%88%86%E8%87%AA%E7%BC%96%E7%A0%81%E5%99%A8VAE/" rel="alternate" type="text/html" title="变分自编码器（Variational AutoEncoder, VAE）" />
+    <published>2025-08-12T00:00:00+08:00</published>
+  
+    <updated>2025-08-12T00:00:00+08:00</updated>
+  
+    <id>https://xieerxuan.github.io/posts/%E5%8F%98%E5%88%86%E8%87%AA%E7%BC%96%E7%A0%81%E5%99%A8VAE/</id>
+    <content type="text/html" src="https://xieerxuan.github.io/posts/%E5%8F%98%E5%88%86%E8%87%AA%E7%BC%96%E7%A0%81%E5%99%A8VAE/" />
+    <author>
+      <name>xex</name>
+    </author>
+
+  
+    
+    <category term="Notes" />
+    
+    <category term="Special Topics" />
+    
+  
+
+  <summary>VAE (Variational AutoEncoder)  VAE的核心目的：构建一个结构化的潜空间，用于数据生成  01 从 Autoencoder 说起  自编码器通过编码器将高维输入数据压缩到低位的潜空间（latent space），再通过解码器从低维的潜空间表示（latent representation）中重建原始数据。    自编码器将观测数据直接映射到潜空间中的一点。 虽然经训练后，观测数据的分布通常会在潜空间中形成聚类映射，但是：    潜空间分布不规则，盲目从潜空间中采样极可能落入空白编码区域（即未对应任何有效观测数据的潜空间点），从而产生无意义的输出；   潜空间结构不连续，点与点之间的迁移没有规律，即使在真实数据对应的潜向量“附近”采样，由于缺乏对“附近”度量的可靠依据，采样得到的潜点通常无法重建出与原始输入数据语义相似或结构一致的有效输出。   因此，我们希...</summary>
 
   </entry>
 
